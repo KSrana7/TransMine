@@ -15,9 +15,11 @@ An Attention-based Transformer Architecture to Decode Chemical Transformations f
 
 ## Data
 
-The dataset used in the work can be downloaded in the repo (https://github.com/zhouhaoyi/ETDataset).
+The dataset used in the work are also available in the repo (https://doi.org/10.5281/zenodo.19099471).
 
 
+## Run the script
+After installation of the packages, main_transformer.py file can be run in python. This file, trains the attention based model, test to get the attention scores across the layers and heads, and performs kinetics to obtain the causal relations. To obain results for differnet systems used in the work, change the data location at appropriate places. The file expects the data at absorbance mode for causal estimation.
 
 
 
